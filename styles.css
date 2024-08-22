@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8B51FC;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.name{
+    background-color: #8B51FC;
+    width: 18%;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    
+}
+
+img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.converter {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-top: none;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.digite {
+    width: 93%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #732d91;
+}
+button:active {
+    opacity: 0.9;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid #8B51FC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.result img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.result p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
+

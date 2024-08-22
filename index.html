@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/logo.gif" alt="Logo" />
+        <button class="name">Conversor de Moedas</button>
+        <div class="converter">
+            <div class="input-group">
+                <label for="fromCurrency">Converter <b>de</b></label>
+                <select id="fromCurrency">
+                    <option value="USD">USD Dólar americano</option>
+                    <option value="BRL">R$ Real brasileiro</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                    <option value="BTC">₿ Bitcoin</option>
+                    <option value="JPY">¥ Yen Japonês</option>
+                    <option value="AUD">A$ Dólar Australiano</option>
+                    <option value="ARS">$ Peso Argentino</option>
+                    <option value="CAD">C$ Dólar Canadense</option>
+                    <option value="CHF">Fr Franco Suíço</option>
+                    <option value="CNY">¥ Yuan Chinês</option>
+                    <option value="INR">₹ Rúpia Indiana</option>
+                    <option value="RUB">₽ Rublo Russo</option>
+                    <option value="MXN">$ Peso Mexicano</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="toCurrency"><b>PARA</b></label>
+                <select id="toCurrency">
+                    <option value="BRL">R$ Real brasileiro</option>
+                    <option value="USD">USD Dólar americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                    <option value="BTC">₿ Bitcoin</option>
+                    <option value="JPY">¥ Yen Japonês</option>
+                    <option value="AUD">A$ Dólar Australiano</option>
+                    <option value="ARS">$ Peso Argentino</option>
+                    <option value="CAD">C$ Dólar Canadense</option>
+                    <option value="CHF">Fr Franco Suíço</option>
+                    <option value="CNY">¥ Yuan Chinês</option>
+                    <option value="INR">₹ Rúpia Indiana</option>
+                    <option value="RUB">₽ Rublo Russo</option>
+                    <option value="MXN">$ Peso Mexicano</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="amount">Valor</label>
+                <input
+                    class="digite"
+                    type="number"
+                    id="amount"
+                    placeholder="Digite um valor.."
+                />
+            </div>
+            <button id="convertButton">Converter</button>
+            <div id="result" class="result">
+                <!-- Resultado da conversão aparecerá aqui -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
